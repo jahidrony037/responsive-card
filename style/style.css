@@ -1,0 +1,70 @@
+/* import fonts */
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Sora", sans-serif;
+}
+
+.section {
+  padding: 164px 0px;
+  height: auto;
+}
+.main {
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: #fafaf9;
+  max-height: 100vh;
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  width: 28.75%;
+  margin: 0 auto;
+  padding: 16px 16px 16px 20px;
+}
+.image {
+  display: flex;
+  justify-content: center;
+}
+.image img {
+  width: 100%;
+  border-radius: 8px;
+}
+.btn {
+  color: #883ae1;
+  background-color: #e6d6fc;
+  padding: 5px 15px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.title {
+  margin-top: 16px;
+  margin-bottom: 6px;
+}
+.text,
+.name {
+  color: #6c727f;
+}
+hr {
+  color: #6c727f;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 640px) {
+    .section{
+        padding: 140px 0px;
+    }
+  .main {
+    max-width: 640px;
+  }
+  .card {
+    width: 80%;
+  }
+}
